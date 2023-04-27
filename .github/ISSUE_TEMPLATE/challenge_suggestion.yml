@@ -1,0 +1,27 @@
+---
+name: Challenge suggestion
+description: Suggest a new challenge
+labels: [ "challenge" ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If you have some ideas of challenges, just feel free to suggest.
+
+  - type: textarea
+    id: challenge
+    attributes:
+      label: What kind of challenge would you like to propose?
+      description: |
+        Please provide a detailed description of the challenge, including sample inputs and outputs. It is important to keep in mind that our challenges are based on real-world scenarios, so providing an actual problem you have encountered is preferred.
+    validations:
+      required: true
+
+  - type: textarea
+    id: testcase
+    attributes:
+      label: Design a few test cases.
+      description: |
+        Additionally, please include some sample test cases for us to better understand your proposed challenge. These don't need to be all-inclusive but should give us an idea of how the solution should behave under different circumstances.
+    validations:
+     required: true

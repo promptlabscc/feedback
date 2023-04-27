@@ -1,0 +1,18 @@
+---
+name: Feedback
+description: Give feedback
+labels: [ "feedback" ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If you have any ideas for improvement, please feel free to suggest them.
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: |
+        Could use more specific language and could benefit from expanding on the purpose of the suggestion.
+    validations:
+      required: true

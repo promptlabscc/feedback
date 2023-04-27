@@ -1,0 +1,21 @@
+---
+name: Bug report
+description: Is something not working? Help us fix it!
+labels: [ "bug" ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please take a moment to complete this bug report.
+        We appreciate your help in improving our product.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: |
+        Please provide details on what occurred, along with any actions you took prior to experiencing the bug.
+        Thank you for your assistance in identifying and resolving issues within our software.
+      placeholder: "Describe the bug"
+    validations:
+      required: true
